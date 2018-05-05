@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F5AB3BE209E166D006709BF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3BD209E166D006709BF /* Message.swift */; };
 		0F5AB3C3209E16ED006709BF /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3C2209E16ED006709BF /* CustomMessageCell.swift */; };
+		0F5AB3C8209E3CB5006709BF /* ForumGeneralControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3C7209E3CB5006709BF /* ForumGeneralControllerViewController.swift */; };
+		0F5AB3CD209E3DF0006709BF /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3CC209E3DF0006709BF /* FirebaseHelper.swift */; };
 		0F78EB2C209DE13400BAB58C /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */; };
 		0F78EB2E209DE17E00BAB58C /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB2D209DE17E00BAB58C /* CreateProfileViewController.swift */; };
 		0F78EB34209DEAC900BAB58C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB33209DEAC900BAB58C /* User.swift */; };
@@ -27,8 +29,9 @@
 
 /* Begin PBXFileReference section */
 		0F5AB3BD209E166D006709BF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		0F5AB3C1209E16ED006709BF /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageCell.xib; path = /Users/Kakashi/Desktop/SpriteKit/DramaLlamasCommunityTool/DramaLlamasCommunityTool/MessageCell.xib; sourceTree = "<absolute>"; };
 		0F5AB3C2209E16ED006709BF /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomMessageCell.swift; path = /Users/Kakashi/Desktop/SpriteKit/DramaLlamasCommunityTool/DramaLlamasCommunityTool/CustomMessageCell.swift; sourceTree = "<absolute>"; };
+		0F5AB3C7209E3CB5006709BF /* ForumGeneralControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumGeneralControllerViewController.swift; sourceTree = "<group>"; };
+		0F5AB3CC209E3DF0006709BF /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
 		0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		0F78EB2D209DE17E00BAB58C /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		0F78EB33209DEAC900BAB58C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 				0F78EB3B209E12DA00BAB58C /* TableController.swift */,
 				0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */,
 				0F8EE87B209DC40A00D5A22B /* ViewController.swift */,
+				0F5AB3C7209E3CB5006709BF /* ForumGeneralControllerViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -86,9 +90,16 @@
 			isa = PBXGroup;
 			children = (
 				0F8EE87D209DC40A00D5A22B /* Main.storyboard */,
-				0F5AB3C1209E16ED006709BF /* MessageCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0F5AB3CB209E3DDB006709BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F5AB3CC209E3DF0006709BF /* FirebaseHelper.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		0F8EE86D209DC40A00D5A22B = {
@@ -118,6 +129,7 @@
 				0F5AB3C6209E1FD8006709BF /* Views */,
 				0F78EB39209DF24C00BAB58C /* ball.gif */,
 				0F78EB35209DEFD400BAB58C /* LoginBg.gif */,
+				0F5AB3CB209E3DDB006709BF /* Models */,
 				0F8EE880209DC40E00D5A22B /* Assets.xcassets */,
 				0F78EB37209DF02B00BAB58C /* iOSDevCenters+GIF.swift */,
 				0F8EE88B209DC56F00D5A22B /* GoogleService-Info.plist */,
@@ -290,9 +302,11 @@
 				0F78EB2E209DE17E00BAB58C /* CreateProfileViewController.swift in Sources */,
 				0F78EB38209DF02B00BAB58C /* iOSDevCenters+GIF.swift in Sources */,
 				0F5AB3C3209E16ED006709BF /* CustomMessageCell.swift in Sources */,
+				0F5AB3CD209E3DF0006709BF /* FirebaseHelper.swift in Sources */,
 				0F78EB34209DEAC900BAB58C /* User.swift in Sources */,
 				0F78EB2C209DE13400BAB58C /* MainMenuViewController.swift in Sources */,
 				0F5AB3BE209E166D006709BF /* Message.swift in Sources */,
+				0F5AB3C8209E3CB5006709BF /* ForumGeneralControllerViewController.swift in Sources */,
 				0F8EE87C209DC40A00D5A22B /* ViewController.swift in Sources */,
 				0F8EE87A209DC40A00D5A22B /* AppDelegate.swift in Sources */,
 			);

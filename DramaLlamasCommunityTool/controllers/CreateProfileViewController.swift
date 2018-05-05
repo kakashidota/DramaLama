@@ -39,8 +39,13 @@ class CreateProfileViewController: UIViewController {
     }
 
     @IBAction func saveProfilePressed(_ sender: Any) {
+        if let name = nameField.text{
+            user.name = nameField.text!
+        } else {
+            nameField.placeholder = "Enter name"
+        }
+            
         
-        user.name = nameField.text!
         user.email = emailField.text!
         user.city = cityFeild.text!
         user.street = streetField.text!

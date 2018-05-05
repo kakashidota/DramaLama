@@ -9,13 +9,15 @@ import UIKit
 
 class CustomMessageCell: UITableViewCell {
 
-    @IBOutlet var messageBody: UILabel!
-    @IBOutlet var senderUsername: UILabel!
+ 
+    @IBOutlet weak var sender: UILabel!
+    
+    @IBOutlet weak var messageBody: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

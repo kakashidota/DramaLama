@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Message: NSObject {
+class Message {
     var messageBody = ""
     var sender = ""
 }
