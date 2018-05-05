@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5AB3BE209E166D006709BF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3BD209E166D006709BF /* Message.swift */; };
+		0F5AB3C3209E16ED006709BF /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AB3C2209E16ED006709BF /* CustomMessageCell.swift */; };
+		0F78EB2C209DE13400BAB58C /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */; };
+		0F78EB2E209DE17E00BAB58C /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB2D209DE17E00BAB58C /* CreateProfileViewController.swift */; };
+		0F78EB34209DEAC900BAB58C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB33209DEAC900BAB58C /* User.swift */; };
+		0F78EB36209DEFD400BAB58C /* LoginBg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F78EB35209DEFD400BAB58C /* LoginBg.gif */; };
+		0F78EB38209DF02B00BAB58C /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB37209DF02B00BAB58C /* iOSDevCenters+GIF.swift */; };
+		0F78EB3A209DF24C00BAB58C /* ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F78EB39209DF24C00BAB58C /* ball.gif */; };
+		0F78EB3C209E12DA00BAB58C /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78EB3B209E12DA00BAB58C /* TableController.swift */; };
 		0F8EE87A209DC40A00D5A22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EE879209DC40A00D5A22B /* AppDelegate.swift */; };
 		0F8EE87C209DC40A00D5A22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EE87B209DC40A00D5A22B /* ViewController.swift */; };
 		0F8EE87F209DC40A00D5A22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EE87D209DC40A00D5A22B /* Main.storyboard */; };
 		0F8EE881209DC40E00D5A22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EE880209DC40E00D5A22B /* Assets.xcassets */; };
 		0F8EE884209DC40E00D5A22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EE882209DC40E00D5A22B /* LaunchScreen.storyboard */; };
+		0F8EE88C209DC57000D5A22B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EE88B209DC56F00D5A22B /* GoogleService-Info.plist */; };
+		15A6502403C64DAA5BD792FE /* Pods_DramaLlamasCommunityTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F2306FEDDF95CE079AE951 /* Pods_DramaLlamasCommunityTool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5AB3BD209E166D006709BF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0F5AB3C1209E16ED006709BF /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageCell.xib; path = /Users/Kakashi/Desktop/SpriteKit/DramaLlamasCommunityTool/DramaLlamasCommunityTool/MessageCell.xib; sourceTree = "<absolute>"; };
+		0F5AB3C2209E16ED006709BF /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomMessageCell.swift; path = /Users/Kakashi/Desktop/SpriteKit/DramaLlamasCommunityTool/DramaLlamasCommunityTool/CustomMessageCell.swift; sourceTree = "<absolute>"; };
+		0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		0F78EB2D209DE17E00BAB58C /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		0F78EB33209DEAC900BAB58C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F78EB35209DEFD400BAB58C /* LoginBg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = LoginBg.gif; path = Assets.xcassets/LoginBg.gif; sourceTree = "<group>"; };
+		0F78EB37209DF02B00BAB58C /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		0F78EB39209DF24C00BAB58C /* ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ball.gif; path = Assets.xcassets/ball.gif; sourceTree = "<group>"; };
+		0F78EB3B209E12DA00BAB58C /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		0F8EE876209DC40A00D5A22B /* DramaLlamasCommunityTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DramaLlamasCommunityTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8EE879209DC40A00D5A22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F8EE87B209DC40A00D5A22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,10 @@
 		0F8EE880209DC40E00D5A22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F8EE883209DC40E00D5A22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F8EE885209DC40E00D5A22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8EE88B209DC56F00D5A22B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23D6877D508E1369C8E66FC2 /* Pods-DramaLlamasCommunityTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DramaLlamasCommunityTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool.debug.xcconfig"; sourceTree = "<group>"; };
+		79F2306FEDDF95CE079AE951 /* Pods_DramaLlamasCommunityTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DramaLlamasCommunityTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19E625AC924BA50817B82D0 /* Pods-DramaLlamasCommunityTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DramaLlamasCommunityTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A6502403C64DAA5BD792FE /* Pods_DramaLlamasCommunityTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F5AB3C4209E1F90006709BF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F78EB2D209DE17E00BAB58C /* CreateProfileViewController.swift */,
+				0F78EB3B209E12DA00BAB58C /* TableController.swift */,
+				0F78EB2B209DE13400BAB58C /* MainMenuViewController.swift */,
+				0F8EE87B209DC40A00D5A22B /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0F5AB3C5209E1FAF006709BF /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F5AB3C2209E16ED006709BF /* CustomMessageCell.swift */,
+				0F78EB33209DEAC900BAB58C /* User.swift */,
+				0F5AB3BD209E166D006709BF /* Message.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		0F5AB3C6209E1FD8006709BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F8EE87D209DC40A00D5A22B /* Main.storyboard */,
+				0F5AB3C1209E16ED006709BF /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0F8EE86D209DC40A00D5A22B = {
 			isa = PBXGroup;
 			children = (
 				0F8EE878209DC40A00D5A22B /* DramaLlamasCommunityTool */,
 				0F8EE877209DC40A00D5A22B /* Products */,
+				A3A1D4D03E6A1607EB4FA11F /* Pods */,
+				1FB668387B4D0C1C102D6E43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +113,35 @@
 			isa = PBXGroup;
 			children = (
 				0F8EE879209DC40A00D5A22B /* AppDelegate.swift */,
-				0F8EE87B209DC40A00D5A22B /* ViewController.swift */,
-				0F8EE87D209DC40A00D5A22B /* Main.storyboard */,
+				0F5AB3C4209E1F90006709BF /* controllers */,
+				0F5AB3C5209E1FAF006709BF /* Custom Classes */,
+				0F5AB3C6209E1FD8006709BF /* Views */,
+				0F78EB39209DF24C00BAB58C /* ball.gif */,
+				0F78EB35209DEFD400BAB58C /* LoginBg.gif */,
 				0F8EE880209DC40E00D5A22B /* Assets.xcassets */,
+				0F78EB37209DF02B00BAB58C /* iOSDevCenters+GIF.swift */,
+				0F8EE88B209DC56F00D5A22B /* GoogleService-Info.plist */,
 				0F8EE882209DC40E00D5A22B /* LaunchScreen.storyboard */,
 				0F8EE885209DC40E00D5A22B /* Info.plist */,
 			);
 			path = DramaLlamasCommunityTool;
+			sourceTree = "<group>";
+		};
+		1FB668387B4D0C1C102D6E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F2306FEDDF95CE079AE951 /* Pods_DramaLlamasCommunityTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3A1D4D03E6A1607EB4FA11F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23D6877D508E1369C8E66FC2 /* Pods-DramaLlamasCommunityTool.debug.xcconfig */,
+				B19E625AC924BA50817B82D0 /* Pods-DramaLlamasCommunityTool.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8EE888209DC40E00D5A22B /* Build configuration list for PBXNativeTarget "DramaLlamasCommunityTool" */;
 			buildPhases = (
+				4FFBF0D731F49C3ABC065387 /* [CP] Check Pods Manifest.lock */,
 				0F8EE872209DC40A00D5A22B /* Sources */,
 				0F8EE873209DC40A00D5A22B /* Frameworks */,
 				0F8EE874209DC40A00D5A22B /* Resources */,
+				C337611718B1886F6DF42210 /* [CP] Embed Pods Frameworks */,
+				26934E16A01BD369D905A11D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,18 +206,93 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8EE884209DC40E00D5A22B /* LaunchScreen.storyboard in Resources */,
+				0F78EB3A209DF24C00BAB58C /* ball.gif in Resources */,
+				0F8EE88C209DC57000D5A22B /* GoogleService-Info.plist in Resources */,
 				0F8EE881209DC40E00D5A22B /* Assets.xcassets in Resources */,
+				0F78EB36209DEFD400BAB58C /* LoginBg.gif in Resources */,
 				0F8EE87F209DC40A00D5A22B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26934E16A01BD369D905A11D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFBF0D731F49C3ABC065387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DramaLlamasCommunityTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C337611718B1886F6DF42210 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DramaLlamasCommunityTool/Pods-DramaLlamasCommunityTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F8EE872209DC40A00D5A22B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F78EB3C209E12DA00BAB58C /* TableController.swift in Sources */,
+				0F78EB2E209DE17E00BAB58C /* CreateProfileViewController.swift in Sources */,
+				0F78EB38209DF02B00BAB58C /* iOSDevCenters+GIF.swift in Sources */,
+				0F5AB3C3209E16ED006709BF /* CustomMessageCell.swift in Sources */,
+				0F78EB34209DEAC900BAB58C /* User.swift in Sources */,
+				0F78EB2C209DE13400BAB58C /* MainMenuViewController.swift in Sources */,
+				0F5AB3BE209E166D006709BF /* Message.swift in Sources */,
 				0F8EE87C209DC40A00D5A22B /* ViewController.swift in Sources */,
 				0F8EE87A209DC40A00D5A22B /* AppDelegate.swift in Sources */,
 			);
@@ -278,6 +436,7 @@
 		};
 		0F8EE889209DC40E00D5A22B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D6877D508E1369C8E66FC2 /* Pods-DramaLlamasCommunityTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +455,7 @@
 		};
 		0F8EE88A209DC40E00D5A22B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19E625AC924BA50817B82D0 /* Pods-DramaLlamasCommunityTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
