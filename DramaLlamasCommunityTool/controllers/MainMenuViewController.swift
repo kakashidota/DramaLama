@@ -14,9 +14,9 @@ class MainMenuViewController: UIViewController {
     
     var myDatabase = Database.database().reference()
     
+    @IBOutlet weak var myPicker: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
@@ -24,8 +24,14 @@ class MainMenuViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "seepostsfrommain" {
+            let controller = segue.destination as! ForumViewController
+            controller.categoryPath = "Tools"
+            
+        }
+    }
     
-
     /*
     // MARK: - Navigation
 

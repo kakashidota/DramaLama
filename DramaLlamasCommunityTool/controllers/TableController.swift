@@ -22,6 +22,8 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     @IBOutlet weak var sendBtn: UIButton!
     
+    var questionToAnswerIndex: Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.delegate = self
@@ -51,10 +53,24 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         cell.messageBody.text! = messageArray[indexPath.row].messageBody
         cell.sender.text = messageArray[indexPath.row].sender
         
+        if cell.sender.text == Auth.auth().currentUser!.email as String? {
 
+            cell.viewWithTag(7)?.backgroundColor = UIColor.blue
+            cell.layer.cornerRadius = 10
+            
+        }
+            //Set background as grey if message is from another user
+        else {
+            cell.viewWithTag(7)?.backgroundColor = UIColor.lightGray
+            cell.layer.cornerRadius = 10
+        }
         
         return cell
  
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        questionToAnswerIndex = indexPath.row
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -62,11 +78,13 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     @IBAction func sendBtnPressed(_ sender: Any) {
+        
         chatField.endEditing(true)
         chatField.isEnabled = false
         sendBtn.isEnabled = false
         
         let messagesDB = Database.database().reference().child("Messages").child(baseForumString)
+        
         let messageDictionary : NSDictionary = ["Sender" : Auth.auth().currentUser!.email as String!, "MessageBody" : chatField.text!]
         messagesDB.childByAutoId().setValue(messageDictionary) {
             (error, ref) in
@@ -107,7 +125,6 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        
         
         UIView.animate(withDuration: 0.5) {
             self.heightConstraint.constant = 308

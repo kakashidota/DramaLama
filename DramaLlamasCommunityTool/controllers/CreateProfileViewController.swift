@@ -43,6 +43,7 @@ class CreateProfileViewController: UIViewController {
             user.name = nameField.text!
         } else {
             nameField.placeholder = "Enter name"
+            return
         }
             
         
@@ -61,6 +62,9 @@ class CreateProfileViewController: UIViewController {
         
         performSegue(withIdentifier: "profiletomain", sender: self)
         
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning() {
